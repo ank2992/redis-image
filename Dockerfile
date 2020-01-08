@@ -3,7 +3,7 @@ FROM alpine
 
 
 #download and install a dependency
-RUN apk --update redis
+RUN apk add --update redis
 
 
 #tell the image what to do and when it starts as a container
