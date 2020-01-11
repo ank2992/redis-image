@@ -1,8 +1,8 @@
 #specify a base iamge
-FROM alpine
+FROM node:alpine
 
 #install dependencies
 RUN npm install
 
 #Default command
-CMD ["npm","start"]
+CMD ["npm","start"] 
