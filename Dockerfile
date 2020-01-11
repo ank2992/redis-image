@@ -4,6 +4,7 @@ FROM alpine
 
 #download and install a dependency
 RUN apk add --update redis
+RUN akp --update gcc
 
 
 #tell the image what to do and when it starts as a container
